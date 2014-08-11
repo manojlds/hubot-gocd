@@ -16,9 +16,26 @@ Then add **hubot-gocd** to your `external-scripts.json`:
 ["hubot-gocd"]
 ```
 
-## Sample Interaction
+##Pipelines and stages to track
 
+The script looks for a `go-pipelines.json` at the root of your Hubot.
+
+This is used to configure which pipelines and stages are to be tracked.
+In addition, we can also specify which statuses of the stages should be reported
+
+Example:
+
+```json
+{
+  "Pipeline1": {
+    "Stage": ["passed", "failed"]
+  },
+  "Pipeline2": {
+    "Stage": ["failed"]
+  }
+}
 ```
-user1>> hubot hello
-hubot>> hello!
-```
+
+The status of stage `Stage` of `Pipeline1` is reported both when it fail as
+well as when it passes. The status of stage `Stage` of `Pipeline2` is reported
+only when it fails.

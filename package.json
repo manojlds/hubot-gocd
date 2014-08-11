@@ -1,7 +1,7 @@
 {
   "name": "hubot-gocd",
   "description": "Report build status from ThoughtWorks' Go.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Manoj <manojlds@gmail.com>",
   "license": "MIT",
 
@@ -9,11 +9,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-gocd.git"
+    "url": "git://github.com/manojlds/hubot-gocd.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-gocd/issues"
+    "url": "https://github.com/manojlds/hubot-gocd/issues"
   },
 
   "dependencies": {
