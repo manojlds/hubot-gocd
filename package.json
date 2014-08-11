@@ -1,0 +1,42 @@
+{
+  "name": "hubot-gocd",
+  "description": "Report build status from ThoughtWorks' Go.",
+  "version": "0.0.0",
+  "author": "Manoj <manojlds@gmail.com>",
+  "license": "MIT",
+
+  "keywords": ["hubot","gocd","thoughtworks","go","pipeline"],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-gocd.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-gocd/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "feedparser": "~0.19.x",
+    "request": "",
+    "underscore": ""
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
