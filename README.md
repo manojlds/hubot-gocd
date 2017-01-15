@@ -1,4 +1,4 @@
-# hubot-gocd
+# hubot-gocd [![Build Status](https://travis-ci.org/Tandolf/hubot-gocd.svg?branch=master)](https://travis-ci.org/Tandolf/hubot-gocd)
 
 Report build status from ThoughtWorks' Go.
 
